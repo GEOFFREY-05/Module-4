@@ -30,9 +30,22 @@ To write a Python program that sorts a dictionary's:
 ---
 
 ## 🧪Program
-Add Code here
+msg=[5, 10, 20]
 
+try:
+
+
+   print(msg[5])
+
+   
+except IndexError:
+
+
+ print("You're out of list range")
+ 
 ## Sample Output
+<img width="1212" height="563" alt="image" src="https://github.com/user-attachments/assets/500d9e29-900e-437e-94d0-4e3aaf5d68a2" />
 
 ## Result
+Thus,the program has been executed successfully.
 
