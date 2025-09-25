@@ -11,8 +11,18 @@ To write a Python program that handles an **IndexError** when trying to access a
 3. Print the result based on whether the index access succeeds or fails.
 
 ## 🧾 Program
-Add code here
+def returnSum(myDict):  <br />
+    final=0  <br />
+    for i in myDict.values():  <br />
+        final+=i  <br />
+    return final  <br />
+#driver functions  <br />
+
+myDict = {'a': 100, 'b': 200, 'c': 300}  <br />
+print("Sum :",returnSum(myDict))
 
 ## Output
+<img width="395" height="167" alt="image" src="https://github.com/user-attachments/assets/309194be-eef0-431a-91ea-9f321db9ddbd" />
 
 ## Result
+Thus,the program has been executed successfully
