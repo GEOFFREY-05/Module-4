@@ -30,21 +30,17 @@ To write a Python program that sorts a dictionary's:
 ---
 
 ## 🧪Program
-msg=[5, 10, 20]
 
-try:
+input_dict = {2: 56, 1: 2, 5: 12, 4: 24, 6: 18, 3: 323}<br>
+sorted_items = sorted(input_dict.items())<br>
+print("Keys and Values sorted in alphabetical order by the key")<br>
+for key, value in sorted_items:<br>
+    print(f"({key}, {value})", end=' ')
 
-
-   print(msg[5])
-
-   
-except IndexError:
-
-
- print("You're out of list range")
+ 
  
 ## Sample Output
-<img width="1212" height="563" alt="image" src="https://github.com/user-attachments/assets/500d9e29-900e-437e-94d0-4e3aaf5d68a2" />
+<img width="961" height="218" alt="image" src="https://github.com/user-attachments/assets/d9d7b450-b0f0-417c-827b-e2de3338b4d2" />
 
 ## Result
 Thus,the program has been executed successfully.
