@@ -11,18 +11,23 @@ To write a Python program that handles an **IndexError** when trying to access a
 3. Print the result based on whether the index access succeeds or fails.
 
 ## 🧾 Program
-def returnSum(myDict):  <br />
-    final=0  <br />
-    for i in myDict.values():  <br />
-        final+=i  <br />
-    return final  <br />
-#driver functions  <br />
 
-myDict = {'a': 100, 'b': 200, 'c': 300}  <br />
-print("Sum :",returnSum(myDict))
 
+try:
+    # Taking 3 elements input from the user<br>
+    L = []<br>
+    for i in range(3):<br>
+        item = ['laptop','mobile','pen']<br>
+        L.append(item)<br>
+
+ # Trying to access index 4<br>
+ print(L[4])<br>
+
+except IndexError:<br>
+    print("check index range")<br>
 ## Output
-<img width="395" height="167" alt="image" src="https://github.com/user-attachments/assets/309194be-eef0-431a-91ea-9f321db9ddbd" />
+<img width="957" height="246" alt="image" src="https://github.com/user-attachments/assets/a4d80716-4f7e-4595-9516-f62dcf6dac89" />
+
 
 ## Result
 Thus,the program has been executed successfully
