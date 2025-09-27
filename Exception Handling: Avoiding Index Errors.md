@@ -20,7 +20,7 @@ try:
         item = ['laptop','mobile','pen']<br>
         L.append(item)<br>
 
- # Trying to access index 4<br>
+
  print(L[4])<br>
 
 except IndexError:<br>
